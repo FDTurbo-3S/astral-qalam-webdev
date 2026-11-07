@@ -122,3 +122,40 @@ Untuk sebarang pertanyaan atau kolaborasi:
 ## ⚖️ Disclaimer
 
 Projek ini disediakan untuk tujuan pembelajaran dan portfolio. Sesuaikan dengan keperluan anda.
+
+## 🚀 Upload Status
+
+**Status**: ✅ Siap untuk upload ke GitHub
+
+**Repository**: `FDTurbo-3S/astral-qalam-webdev`
+
+**File Siap Upload**: 12 file Vue.js project
+
+**Untuk upload**: Jalankan `GITHUB-UPLOAD.ps1` atau `git push` dengan authentication
+
+## 📋 Checklist Upload
+
+- [x] Git repository diinisialisasi
+- [x] Semua file di-add ke Git
+- [x] File di-commit dengan pesan yang jelas
+- [x] Remote repository dikonfigurasi
+- [ ] Push ke GitHub (perlu authentication)
+
+## 🚀 Upload Status
+
+**Status**: ✅ Siap untuk upload ke GitHub
+
+**Repository**: `FDTurbo-3S/astral-qalam-webdev`
+
+**File Siap Upload**: 12 file Vue.js project
+
+**Untuk upload**: Jalankan `GITHUB-UPLOAD.ps1` atau `git push` dengan authentication
+
+## 📋 Checklist Upload
+
+- [x] Git repository diinisialisasi
+- [x] Semua file di-add ke Git
+- [x] File di-commit dengan pesan yang jelas
+- [x] Remote repository dikonfigurasi
+- [ ] Push ke GitHub (perlu authentication)
+
