@@ -98,6 +98,20 @@ Projek ini dibawahi [Apache License 2.0](LICENSE).
 
 - **FDTurbo-3S** - [GitHub Profile](https://github.com/FDTurbo-3S)
 
+## 🚀 Upload Status
+
+**Status**: ✅ Siap di-upload ke GitHub
+
+**Repository**: `FDTurbo-3S/astral-qalam-webdev`
+
+**Untuk upload manual**:
+```bash
+git add .
+git commit -m "Add Vue.js project"
+git push origin main
+```
+
+
 ## 📞 Kontak
 
 Untuk sebarang pertanyaan atau kolaborasi:
