@@ -136,38 +136,35 @@ Projek ini disediakan untuk tujuan pembelajaran dan portfolio. Sesuaikan dengan 
 ## 📋 Checklist Upload
 
 - [x] Git repository diinisialisasi
-- [x] Semua file di-add ke Git (14 file)
-- [x] File di-commit dengan pesan yang jelas (5 commits)
+- [x] 14 file di-add ke Git
+- [x] File di-commit (7 commits)
 - [x] Remote repository dikonfigurasi
 - [ ] Push ke GitHub (perlu authentication)
 
 ### 🔐 Cara Upload ke GitHub:
 
-1. **Buat Personal Access Token**:
-   - Buka: https://github.com/settings/tokens
-   - Klik "Generate new token (classic)"
-   - Beri nama: `astral-qalam-webdev-upload`
-   - Scopes: `repo`
-   - Copy token yang diberikan
+**Cara 1: Personal Access Token**
+```powershell
+cd C:\Users\FD3S-Turbo\Documents\vue-projects\astral-qalam-webdev
+git remote set-url origin https://TOKEN@github.com/FDTurbo-3S/astral-qalam-webdev.git
+git push -u origin main
+```
 
-2. **Push dengan Token**:
-   ```powershell
-   cd C:\Users\FD3S-Turbo\Documents\vue-projects\astral-qalam-webdev
-   git remote set-url origin https://TOKEN@github.com/FDTurbo-3S/astral-qalam-webdev.git
-   git push -u origin main
-   ```
-   
-   Atau gunakan script: `.\GITHUB-UPLOAD.ps1`
+**Cara 2: Via Script**
+```powershell
+cd C:\Users\FD3S-Turbo\Documents\vue-projects\astral-qalam-webdev
+.\UPLOAD.ps1
+```
 
-3. **Via GitHub CLI** (sudah di-install):
-   ```powershell
-   gh auth login --web
-   gh repo clone FDTurbo-3S/astral-qalam-webdev
-   # Edit dan push
-   git push
-   ```
+**Cara 3: GitHub CLI**
+```powershell
+gh auth login --web
+git add .
+git commit -m "Add Vue.js project"
+git push
+```
 
-## 📍 Repository URL
+### 📍 Repository URL
 
 **Local**: `C:\Users\FD3S-Turbo\Documents\vue-projects\astral-qalam-webdev`  
 **GitHub**: `https://github.com/FDTurbo-3S/astral-qalam-webdev`
